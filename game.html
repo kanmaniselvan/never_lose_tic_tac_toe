@@ -1,9 +1,33 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="src/game.css">
-    <script src="src/game.js"></script>
     <script src="src/jquery-3.2.1.min.js"></script>
+    <script src="src/game.js"></script>
 </head>
 <body>
+<div class="game-display">
+    <label for="board-size-select">Select the board size</label>
+    <select id="board-size-select">
+        <option value="3">
+            3 x 3
+        </option>
+        <option value="4">
+            4 x 4
+        </option>
+        <option value="5">
+            5 x 5
+        </option>
+    </select>
+
+    <button onclick="resetGame()">Reset Game</button>
+
+    <div class="note">
+        * The game starts only when you make the first move</span>
+    </div>
+
+    <div id="game-board">
+
+    </div>
+</div>
 </body>
 </html>

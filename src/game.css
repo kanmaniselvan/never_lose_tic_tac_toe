@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+.note {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #919191;
+}
+
+#game-board table {
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#game-board td {
+    border: 1px solid #bfbfbf;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
