@@ -9,6 +9,7 @@ body {
 }
 
 #game-board table {
+    margin-top: 40px;
     border-collapse: collapse;
     margin-left:auto;
     margin-right:auto;
